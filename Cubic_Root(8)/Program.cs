@@ -10,8 +10,15 @@ namespace Cubic_Root_8_
             {
                 Console.WriteLine("Введите целое число, кубический корень которого хотите вычислить: ");
                 int a = Convert.ToInt32(Console.ReadLine());
-                double root = 1;
+                double root = 0;
                 double step = 1;
+                bool flag = false;
+
+                if (a < 0)
+                {
+                    a *= -1;
+                    flag = true;
+                }
 
                 while (root * root * root != a && step >= 0.0000000001)
                 {
@@ -25,6 +32,8 @@ namespace Cubic_Root_8_
                     }
                 }
 
+                if (flag == true)
+                    root *= -1;
                 Console.WriteLine($"Кубический корень числа {a} равен {root}");
             }
         }
