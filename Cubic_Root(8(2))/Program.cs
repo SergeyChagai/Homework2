@@ -31,6 +31,7 @@ namespace Cubic_Root_8_2__
                     }
                 }
                 Console.WriteLine(midPoint);
+
             }
         }
 
