@@ -13,19 +13,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sum(5)", "Sum\Sum(5).csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divider(4)", "Divider\Divider(4).csproj", "{99828259-0973-4A53-8A13-A7B148268C4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci(6)", "Fibonacci\Fibonacci(6).csproj", "{EF43C555-A8B5-49AC-BE21-1B6FD99F6694}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci(6)", "Fibonacci\Fibonacci(6).csproj", "{EF43C555-A8B5-49AC-BE21-1B6FD99F6694}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divider_Euklid(7)", "Divider_Euklid\Divider_Euklid(7).csproj", "{24FD5EF3-2C0A-4F0E-A83B-8B2F4A7D3C77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divider_Euklid(7)", "Divider_Euklid\Divider_Euklid(7).csproj", "{24FD5EF3-2C0A-4F0E-A83B-8B2F4A7D3C77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cubic_Root(8)", "Cubic_Root(8)\Cubic_Root(8).csproj", "{0782C55C-CE18-4FD3-94F7-0E3A0BACA120}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cubic_Root(8)", "Cubic_Root(8)\Cubic_Root(8).csproj", "{0782C55C-CE18-4FD3-94F7-0E3A0BACA120}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Impair_Digits(9)", "Impair_Digits(9)\Impair_Digits(9).csproj", "{CC85BF5E-E2CF-497C-8452-6BAB1F9F7C92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Impair_Digits(9)", "Impair_Digits(9)\Impair_Digits(9).csproj", "{CC85BF5E-E2CF-497C-8452-6BAB1F9F7C92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrom(10)", "Palindrom(10)\Palindrom(10).csproj", "{DACD3166-4D94-4783-8040-C1E545966BAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrom(10)", "Palindrom(10)\Palindrom(10).csproj", "{DACD3166-4D94-4783-8040-C1E545966BAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pair_Impair(11)", "Pair_Impair(11)\Pair_Impair(11).csproj", "{E1973853-B2C7-4E3A-B6B1-F3F91E5F45A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pair_Impair(11)", "Pair_Impair(11)\Pair_Impair(11).csproj", "{E1973853-B2C7-4E3A-B6B1-F3F91E5F45A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Same_Digits(12)", "Same_Digits(12)\Same_Digits(12).csproj", "{9CF22285-45B4-406F-B9CB-4965D9DF5509}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Same_Digits(12)", "Same_Digits(12)\Same_Digits(12).csproj", "{9CF22285-45B4-406F-B9CB-4965D9DF5509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cubic_Root(8(2))", "Cubic_Root(8(2))\Cubic_Root(8(2)).csproj", "{C728F168-9819-49B0-BCCC-60E0F8540835}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{9CF22285-45B4-406F-B9CB-4965D9DF5509}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CF22285-45B4-406F-B9CB-4965D9DF5509}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CF22285-45B4-406F-B9CB-4965D9DF5509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C728F168-9819-49B0-BCCC-60E0F8540835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C728F168-9819-49B0-BCCC-60E0F8540835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C728F168-9819-49B0-BCCC-60E0F8540835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C728F168-9819-49B0-BCCC-60E0F8540835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
