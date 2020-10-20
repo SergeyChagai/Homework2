@@ -15,7 +15,7 @@ namespace Cubic_Root_8_2__
                 double leftBoarder = 0;
                 double midPoint = 0;
                
-                while (rightBoarder - leftBoarder >= 0.000001)
+                while (rightBoarder - leftBoarder >= 0.000001 && midPoint * midPoint * midPoint != n)
                 {
                     midPoint = (leftBoarder + rightBoarder) / 2;
 
@@ -33,7 +33,6 @@ namespace Cubic_Root_8_2__
                 Console.WriteLine(midPoint);
             }
         }
-
     }
 }
     

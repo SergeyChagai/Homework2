@@ -19,7 +19,7 @@ namespace Palindrom_10_
                     flag = true;
                 }
 
-                while (a % 10 != 0)
+                while (a != 0)
                 {
                     b = (b * 10) + (a % 10);
                     a /= 10;
